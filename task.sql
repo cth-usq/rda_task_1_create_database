@@ -34,6 +34,3 @@ CREATE TABLE OrderItems (
     FOREIGN KEY (ProductsID) REFERENCES Products(ID) ON DELETE SET NULL
 );
 
-
-
-
